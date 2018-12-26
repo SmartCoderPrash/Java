@@ -2,6 +2,10 @@ package com.mobi;
 
 public class Address {
 	
+	@Override
+	public String toString() {
+		return "Address [city=" + city + ", pincode=" + pincode + ", state=" + state + ", street=" + street + "]";
+	}
 	private String city;
 	private String pincode;
 	private String state;
